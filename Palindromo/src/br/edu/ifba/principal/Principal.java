@@ -2,7 +2,7 @@ package br.edu.ifba.principal;
 
 import java.util.Scanner;
 
-import br.edu.ifba.servico.Servico;
+import br.edu.ifba.basica.Servico;
 
 public class Principal {
 
@@ -13,11 +13,11 @@ public class Principal {
 
 		if (s.inverter(in.next())) {
 
-			System.out.println("É palíndromo");
+			System.out.println("ï¿½ palï¿½ndromo");
 			
 		} else {
 
-			System.out.println("Não é palíndromo");
+			System.out.println("Nï¿½o ï¿½ palï¿½ndromo");
 		}
 
 		in.close();
